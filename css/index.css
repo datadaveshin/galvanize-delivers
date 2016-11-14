@@ -14,5 +14,9 @@
 }
 
 header {
-    background: url(../img/hero.jpg);
+    background: url(../img/hero.jpg) no-repeat;
+    background-size: cover;
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
 }
