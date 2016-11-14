@@ -17,15 +17,19 @@
 
   <body>
       <nav class="deep-purple" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="./index.html" class="brand-logo white-text">Galvanize Delivers</a>
+        <div class="nav-wrapper container">
+            <a href="./index.html" class="brand-logo white-text">Galvanize Delivers</a>
+            <a href="#" data-activates="menu" class="button-collapse"><i class="material-icons">menu</i></a>
+
+
           <ul class="right hide-on-med-and-down">
-            <li><a href="./order.html" class="white-text">Order Delivery</a></li>
+            <li class="active"><a href="./order.html" class="white-text">Order Delivery</a></li>
           </ul>
 
-          <ul id="nav-mobile" class="side-nav">
-            <li><a href="./order.html">Order Delivery</a></li>
+          <ul class="side-nav" id="menu">
+            <li class="active"><a href="./order.html">Order Delivery</a></li>
           </ul>
-          <a href="./order.html" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
         </div>
       </nav>
     <header>
@@ -115,5 +119,6 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>
